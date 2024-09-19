@@ -1,5 +1,6 @@
-# Fertilizer_Recommendation_System
+# AGRO Fertilizer
 
+#This is just for learning purpose only. Not applicable for real-world usage yet
 This project is a Fertilizer Recommendation System that assists farmers in selecting the appropriate fertilizers for their crops. It takes into account various environmental and soil factors to make precise fertilizer recommendations, ultimately improving crop yield and reducing the cost of unnecessary fertilizer use
 
 # Fertilizer Recommendation:
@@ -8,15 +9,7 @@ Fertilizer recommendation is the process of suggesting the most suitable types a
 # Dataset Information
 The project utilizes a dataset containing information on various agricultural factors. The dataset is structured to include the following variables:
 
-Nitrogen: The nitrogen content in the soil.
-Phosphorus: The phosphorus content in the soil.
-Potassium: The potassium content in the soil.
-Temperature: The temperature at the location.
-Humidity: The relative humidity at the location.
-Moisture: The soil moisture level.
-Soil Type: The type of soil at the location.
-Crop Type: The type of crop to be grown.
-Fertilizer Names: The names of different types of fertilizers.
+N,P,K,temperature,soil type, fertilizer names, crop names
 
 # Main Python Script using Flask
 The main functionality of this project is implemented in a Python script using Flask, a web framework. The script serves as the backend for the web-based fertilizer recommendation system. It takes input from users regarding soil and environmental conditions and provides fertilizer recommendations based on the algorithm used.
@@ -71,5 +64,3 @@ Matplotlib: Matplotlib is a popular data visualization library in Python. It is 
 Seaborn: Seaborn is built on top of Matplotlib and provides a higher-level interface for creating attractive and informative statistical graphics. It enhances the aesthetics of data visualizations in the recommendation system.
 
 Flask: Flask is a Python web framework used to develop the user interface for the Fertilizer Recommendation System. It handles web requests and serves recommendations to users through a web-based interface
-![Screenshot 2023-09-18 195920](https://github.com/krushna27/Fertilizer_Recommendation_System/assets/76439755/da14fef8-0b3e-44a8-9790-71cb70d4db78)
-![Screenshot 2023-09-18 195853](https://github.com/krushna27/Fertilizer_Recommendation_System/assets/76439755/66d5bb4f-0a97-4f75-a636-30762a6ebfce)
